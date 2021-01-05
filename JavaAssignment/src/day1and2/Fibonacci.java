@@ -1,3 +1,4 @@
+package day1and2;
 
 public class Fibonacci {
 	public static void printFibonacciSeries(int number)
