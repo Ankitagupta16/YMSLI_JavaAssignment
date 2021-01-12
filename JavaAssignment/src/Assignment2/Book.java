@@ -1,4 +1,4 @@
-package Assignment3;
+package Assignment2;
 
 public class Book {
 	String bookTitle;
