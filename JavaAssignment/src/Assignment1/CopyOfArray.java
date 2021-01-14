@@ -36,6 +36,6 @@ public class CopyOfArray {
 			System.out.println(arrayCopy[i]+" ");
 			i++;
 		}
-		
+		sc.close();
 	}
 }

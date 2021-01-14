@@ -15,7 +15,7 @@ public class BookStore {
 		for (int i = 0; i < 10; i++) {
 			if (books.get(i).getBook().equals(bookTitle)) {
 				if (books.get(i).getNumOfCopies() > 0) {
-					books.get(i).setNumOfCopies(books.get(i).getNumOfCopies() - 1);
+					books.get(i).setNumOfCopies(books.get(i).getNumOfCopies() - noOfCopies);
 					flag = true;
 					break;
 				} else

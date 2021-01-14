@@ -42,7 +42,8 @@ public static void main(String[] args) {
 					store.order(isbn, copies);
 					System.out.println("Do you want to order another book? (yes/no)");
 					anotherOrder  = sc.next();
-				}while(anotherOrder=="YES"||anotherOrder=="yes"||anotherOrder=="Yes");break;
+				   }  while(anotherOrder=="YES"||anotherOrder=="yes"||anotherOrder=="Yes");
+				break;
 			}	
 			case 3:{String anotherOrder  = null;
 					do {
