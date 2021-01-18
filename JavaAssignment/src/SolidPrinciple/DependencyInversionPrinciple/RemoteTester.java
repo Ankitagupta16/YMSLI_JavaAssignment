@@ -2,7 +2,8 @@ package SolidPrinciple.DependencyInversionPrinciple;
 
 public class RemoteTester {
 	public static void main(String[] args) {
-
-		Remote remote = new Remote();
+		Battery battery = new ParasonicBattery();
+		Remote remote = new Remote(battery);
+		remote.getBattery();
 	}
 }

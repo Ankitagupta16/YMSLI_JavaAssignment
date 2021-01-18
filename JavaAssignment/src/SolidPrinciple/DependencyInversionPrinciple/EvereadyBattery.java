@@ -1,6 +1,6 @@
 package SolidPrinciple.DependencyInversionPrinciple;
 
-public class EvereadyBattery {
+public class EvereadyBattery implements Battery{
  
 	EvereadyBattery()
 	{
