@@ -1,6 +1,6 @@
 package Assignment3;
 
-public abstract class Employee {
+public abstract class Employee implements Payable {
 
 	String name;
 	String empID;
@@ -10,5 +10,7 @@ public abstract class Employee {
 		this.empID = empID;
 	}
 	
+	public abstract double getSalary();
+	public abstract void setSalary(float rate);
 	public abstract void increaseSalary(float rate);
 }

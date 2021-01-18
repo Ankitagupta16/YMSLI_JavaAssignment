@@ -1,6 +1,6 @@
 package Assignment3;
 
-public class HourlyEmployee extends Employee implements Payable {
+public class HourlyEmployee extends Employee{
 
 	float hourlyRate;
 	double hourlySalary;
@@ -20,6 +20,18 @@ public class HourlyEmployee extends Employee implements Payable {
 	@Override
 	public void increaseSalary(float rate) {
 		hourlyRate += rate;
-		System.out.println("Weekly Rate Increased");
+		System.out.println("Hourly Rate Increased");
+	}
+	@Override
+	public double getSalary() {
+		
+		return hourlySalary;
+	}
+
+	@Override
+	public void setSalary(float rate) {
+		hourlyRate += rate;
+		System.out.println("Hourly Rate Updated");
+		
 	}
 }
