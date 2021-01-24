@@ -1,4 +1,4 @@
-package Assignment2;
+package assignment2;
 
 public class Circle {
 	double radius=1.0;

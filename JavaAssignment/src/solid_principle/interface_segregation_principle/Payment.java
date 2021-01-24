@@ -1,4 +1,4 @@
-package SolidPrinciple.InterfaceSegregationPrinciple;
+package solid_principle.interface_segregation_principle;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package Assignment2;
+package assignment2;
 
 public abstract class Account {
 	String memberName;

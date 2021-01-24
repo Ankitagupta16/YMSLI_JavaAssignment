@@ -1,4 +1,4 @@
-package SolidPrinciple.DependencyInversionPrinciple;
+package solid_principle.dependency_inversion_principle;
 
 public class DuracellBattery implements Battery{
 	DuracellBattery()

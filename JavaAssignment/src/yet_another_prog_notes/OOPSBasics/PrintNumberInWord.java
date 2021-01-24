@@ -1,7 +1,7 @@
 /*Write a program called PrintNumberInWord which prints "ONE", "TWO",... , "NINE", "OTHER" 
 if the int variable "number" is 1, 2,... , 9, or other, respectively. 
 */
-package YetAnotherProgNotes.OOPSBasics;
+package yet_another_prog_notes.OOPSBasics;
 
 import java.util.Scanner;
 

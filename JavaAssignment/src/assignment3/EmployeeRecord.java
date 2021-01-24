@@ -1,4 +1,4 @@
-package Assignment3;
+package assignment3;
 import java.util.*;
 public class EmployeeRecord {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package SolidPrinciple.LiskovSubstitutionPrinciple;
+package solid_principle.liskov_substitution_principle;
 import java.math.BigDecimal;
 
 public class AccountTester {

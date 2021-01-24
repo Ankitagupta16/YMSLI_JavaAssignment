@@ -1,4 +1,4 @@
-package YetAnotherProgNotes.OOPSBasics;
+package yet_another_prog_notes.OOPSBasics;
 
 import java.util.Scanner;
 
