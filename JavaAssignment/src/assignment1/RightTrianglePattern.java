@@ -1,4 +1,4 @@
-package Assignment1;
+package assignment1;
 
 public class RightTrianglePattern {
 	public static void main(String[] args) {
