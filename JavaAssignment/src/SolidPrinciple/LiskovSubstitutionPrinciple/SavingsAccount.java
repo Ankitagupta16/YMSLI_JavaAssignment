@@ -9,7 +9,7 @@ public class SavingsAccount extends Account {
     }
 
     @Override
-    public void withdraw(BigDecimal amount) {
+    protected void withdraw(BigDecimal amount) {
     	System.out.println(" Withdraw from SavingsAccount");
     }
 }

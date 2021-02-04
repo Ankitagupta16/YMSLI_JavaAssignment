@@ -8,8 +8,8 @@ public class FixedTermDepositAccount extends Account {
         System.out.println("Deposit into FixedTermDepositAccount account");
     }
 
-	@Override
-	public void withdraw(BigDecimal amount) {
+    @Override
+	protected void withdraw(BigDecimal amount) {
 		throw new UnsupportedOperationException("Withdrawals are not supported by FixedTermDepositAccount!!");
 	}
 }
